@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -empty : 1:6 | sort
+find -empty -printf "%f\n"
